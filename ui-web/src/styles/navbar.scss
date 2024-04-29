@@ -1,0 +1,36 @@
+.navbar__sider {
+    height: 100vh;
+    position: fixed !important;
+    background-color: #fff;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        background: rgba(18, 33, 83, 0.5);
+    }
+
+    .logo-vertical {
+        height: 32px;
+        margin: 16px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+
+    .ant-layout-sider-children {
+        background: url('https://i.pinimg.com/originals/dd/2e/62/dd2e629a950f87217b6168cf828c22a7.jpg') no-repeat;
+        background-size: cover;
+
+        ul {
+            background: none;
+        }
+    }
+}

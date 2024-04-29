@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cantarell', sans-serif;
+    transition: all 0.2s ease-in 0s !important;
+}
+
+:root {
+    --bgr-color-1: #141b2d;
+    --bgr-color-2: #1F2A40;
+    --text-color-1: #F3FDE8;
+    --text-color-2: #4cceac;
+    --temp-color-low: #1D5D9B;
+    --temp-color-safe: #7A9D54;
+    --temp-color-medium: #F1C93B;
+    --temp-color-high: #F31559;
+    --light-color-low: #FFBB5C;
+    --light-color-safe: #FF9B50;
+    --light-color-medium: #E25E3E;
+    --light-color-high: #C63D2F;
+    --humidity-color-low: #9BE8D8;
+    --humidity-color-safe: #75C2F6;
+    --humidity-color-medium: #1D5D9B;
+    --humidity-color-high: #0D1282;
+    --border-color: #93B1A6;
+    --state-off: #757373;
+    --state-on: #A8DF8E
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.ml-200 {
+    margin-left: 200px;
+}
+
+.ml-80 {
+    margin-left: 80px;
+}
+
+.ant-tooltip {
+    display: none;
+}
+
+.ant-dropdown,
+.ant-table-filter-dropdown {
+    left: 660px !important;
+    top: 315px !important;
+    --arrow-x: initial !important;
+    --arrow-y: initial !important;
+    min-width: initial !important;
+}

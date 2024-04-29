@@ -1,0 +1,12 @@
+.loading__container {
+    padding: 20px;
+    background-color: var(--bgr-color-1);
+    height: 100vh;
+
+    .loading__row {
+        margin: 35px 0;
+        background-color: var(--bgr-color-2);
+        padding: 20px;
+        border-radius: 15px;
+    }
+}

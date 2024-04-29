@@ -1,0 +1,60 @@
+.history__container {
+    background-color: var(--bgr-color-1);
+    min-height: 100vh;
+    animation: show 1.3s ease;
+
+    .header {
+        color: #fff;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            color: var(--text-color-2);
+        }
+
+        .sub-title {
+            font-weight: 500;
+            font-size: 18px;
+            opacity: 0.6;
+        }
+    }
+
+    .content {
+
+        .history__search {
+            width: 350px;
+            margin: 45px 0 0 68px;
+            display: flex;
+        }
+
+        .history__table {
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 100px;
+
+            .ant-pagination {
+                background-color: #ffffff !important;
+                padding: 16px !important;
+                margin: 0;
+            }
+        }
+
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        overflow: 1;
+    }
+}

@@ -1,0 +1,56 @@
+.device__control__container {
+    background-color: #fff;
+    height: 100%;
+    background-color: var(--bgr-color-1);
+    border-left: 2px solid var(--text-color-2);
+
+    .title {
+        color: var(--text-color-2);
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px 0;
+    }
+
+    .device_control {
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .control {
+            margin: 20px 0;
+            background-color: var(--bgr-color-2);
+            width: 350px;
+            height: 150px;
+            border-radius: 15px;
+
+            .control-action {
+                margin: 15px 20px 0 20px;
+                color: #fff;
+                font-size: 18px;
+
+                .action {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .disable-btn {
+                    float: right;
+                    margin-top: 20px;
+                    width: 80px;
+                }
+            }
+
+            .control--title {
+                color: var(--text-color-2);
+                font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+                padding: 12px 0;
+            }
+        }
+    }
+}
